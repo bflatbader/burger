@@ -1,0 +1,15 @@
+// DEPENDENCIES
+var connection = require("../config/connection.js");
+
+var orm = {
+    selectAll: function(tableInput) {
+        var queryString = "SELECT * FROM ??";
+        connection.query(queryString, [tableInput], function(err, result) {
+          if (err) throw err;
+          console.log(result);
+        });
+    },
+};
+
+// Export the ORM object
+module.exports = orm;
