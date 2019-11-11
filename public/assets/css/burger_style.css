@@ -7,6 +7,7 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     color: #fff;
+    font-size: 18px;
 }
 
 .jumbotron {
@@ -34,4 +35,12 @@ body {
 
 .table {
     background: none;
+}
+
+.btn-link {
+    color: #fff;
+}
+
+.btn-link:hover {
+    color: #da2e3a;
 }
