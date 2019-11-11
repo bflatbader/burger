@@ -14,7 +14,10 @@
           <tr>
             <th scope="row">{{id}}</th>
             <td>{{ burger_name }}</td>
-            <td><button type="button" data-id="{{id}}" class="btn btn-link change-devour"><i class="fas fa-shopping-bag"></button></td>
+            <td>
+              <button type="button" title="Order Burger" data-id="{{id}}" class="btn btn-link change-devour"><i class="fas fa-shopping-bag"></i></button>
+              <button type="button" title="Delete Burger" data-id="{{id}}" class="btn btn-link delete"><i class="fas fa-trash-alt"></i></button>
+            </td>
           </tr>
           {{/unless}}
         {{/each}}
@@ -37,7 +40,10 @@
           <tr>
             <th scope="row">{{id}}</th>
             <td>{{ burger_name }}</td>
-            <td><i class="fas fa-trash-alt"></i></td>
+            <td>
+              <button type="button" title="Remove From Order" data-id="{{id}}" class="btn btn-link un-devour"><i class="fas fa-minus"></i></button>
+              <button type="button" title="Delete Burger" data-id="{{id}}" class="btn btn-link delete"><i class="fas fa-trash-alt"></i></button>
+            </td>
           </tr>
           {{/if}}
         {{/each}}
