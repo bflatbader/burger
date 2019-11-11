@@ -1,0 +1,37 @@
+body {
+    background-image: url("../img/burgerBG.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+.jumbotron {
+    margin: 0px;
+    background: linear-gradient(to top, rgba(209,209,209,0), rgba(209,209,209,.1));
+}
+
+#newBurger {
+    padding-bottom: 40px;
+}
+
+#content {
+    background-image: url("../img/Blackboard_background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Walter Turncoat', cursive;
+    border-radius: 10px;
+    border: #513C2C solid 10px;
+    padding: 50px;
+}
+
+.table {
+    background: none;
+}

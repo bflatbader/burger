@@ -4,10 +4,46 @@
 	<meta charset="UTF-8">
 		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 		<title>Burgers</title>
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="/assets/js/app.js"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- BootStrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- FontAwesome -->
+    	<script src="https://kit.fontawesome.com/eeaaa00cac.js"></script>
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap" rel="stylesheet">
+		<!-- CSS -->
+        <link rel="stylesheet" href="assets/css/burger_style.css">
+        <!-- JavaScript -->
+        <script src="/assets/js/app.js"></script>
 	</head>
 	<body>
-		{{{ body }}}
+		<!-- Header -->
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="jumbotron jumbotron-fluid">
+				<div class="container">
+					<img src="assets/img/logo2.png" class="img-fluid" alt="Responsive image">
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- Main Content -->
+		<div class="container">
+			<div id="newBurger" class="row text-center">
+				<div class="col-md-12">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Request New Burger">
+						<span class="input-group-btn">
+								<button class="btn btn-primary" type="button"><i class="fas fa-plus"></i></button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="content" class="row">
+				<div class="col-md-12">
+					{{{ body }}}
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
