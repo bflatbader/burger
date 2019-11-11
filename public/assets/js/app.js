@@ -42,6 +42,7 @@ $(function() {
         );
     });
 
+    // Minus button is clicked to remove from order
     $(".un-devour").on("click", function(event) {
         var id = $(this).data("id");
             
@@ -56,6 +57,22 @@ $(function() {
         }).then(
           function() {
             console.log("removed burger " + id);
+            // Reload the page to get the updated list
+            location.reload();
+          }
+        );
+    });
+
+    // Trashcan button is clicked to delete burger
+    $(".delete").on("click", function(event) {
+        var id = $(this).data("id");
+    
+        // Send the DELETE request.
+        $.ajax("/api/burgers/" + id, {
+          type: "DELETE"
+        }).then(
+          function() {
+            console.log("deleted burger", id);
             // Reload the page to get the updated list
             location.reload();
           }
