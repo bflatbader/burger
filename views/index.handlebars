@@ -1,46 +1,46 @@
-<h1>On The Menu<i>!</i></h1>
-
-<table class="table table-dark">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Burger Name</th>
-      <th scope="col">&nbsp;</th>
-    </tr>
-  </thead>
-  <tbody>
-      {{#each burgers}}
-        {{#unless devoured}}
-        <tr>
-          <th scope="row">{{id}}</th>
-          <td>{{ burger_name }}</td>
-          <td><button type="button" class="btn btn-link"><i class="fas fa-shopping-bag"></button></td>
-        </tr>
-        {{/unless}}
-      {{/each}}
-  </tbody>
-</table>
-
-<br>
-
-<h1>Ordered Burgers<i>!</i></h1>
-<table class="table table-dark">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Burger Name</th>
-      <th scope="col">&nbsp;</th>
-    </tr>
-  </thead>
-  <tbody>
-      {{#each burgers}}
-        {{#if devoured}}
-        <tr>
-          <th scope="row">{{id}}</th>
-          <td>{{ burger_name }}</td>
-          <td><i class="fas fa-trash-alt"></i></td>
-        </tr>
-        {{/if}}
-      {{/each}}
-  </tbody>
-</table>
+<div class="col-md-6">
+  <h1>On The Menu<i>!</i></h1>
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Burger Name</th>
+        <th scope="col">&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+        {{#each burgers}}
+          {{#unless devoured}}
+          <tr>
+            <th scope="row">{{id}}</th>
+            <td>{{ burger_name }}</td>
+            <td><button type="button" class="btn btn-link"><i class="fas fa-shopping-bag"></button></td>
+          </tr>
+          {{/unless}}
+        {{/each}}
+    </tbody>
+  </table>
+</div>
+<div class="col-md-6">
+  <h1>Ordered Burgers<i>!</i></h1>
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Burger Name</th>
+        <th scope="col">&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+        {{#each burgers}}
+          {{#if devoured}}
+          <tr>
+            <th scope="row">{{id}}</th>
+            <td>{{ burger_name }}</td>
+            <td><i class="fas fa-trash-alt"></i></td>
+          </tr>
+          {{/if}}
+        {{/each}}
+    </tbody>
+  </table>
+</div>
