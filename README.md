@@ -2,14 +2,14 @@
 [![Generic badge](https://img.shields.io/badge/LinkedIn-Blue.svg)](https://www.linkedin.com/in/bishop-bader/)
 
 <p align="center">
-    <img src="app/public/img/logo2.png" alt="Logo"><br>
+    <img src="public/assets/img/logo2.png" alt="Logo"><br>
 </p>
 
 ## Overview
 TBD
 
 ## Screenshots
-![mainSS](/app/public/images/screenshot.jpg)
+![mainSS](public/assets/img/screenshot.jpg)
 
 ## Languages/Technologies Used
 - HTML, CSS, JavaScript
