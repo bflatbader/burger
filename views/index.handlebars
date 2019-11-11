@@ -14,7 +14,7 @@
           <tr>
             <th scope="row">{{id}}</th>
             <td>{{ burger_name }}</td>
-            <td><button type="button" class="btn btn-link"><i class="fas fa-shopping-bag"></button></td>
+            <td><button type="button" data-id="{{id}}" class="btn btn-link change-devour"><i class="fas fa-shopping-bag"></button></td>
           </tr>
           {{/unless}}
         {{/each}}
