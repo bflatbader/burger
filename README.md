@@ -38,5 +38,5 @@ Users should click the `trashcan icon` to permanently delete a burger from the p
 ![delete](public/assets/img/deleteBurger.jpg)
 
 #### Add a Burger
-To add a new burger, users should enter the burger name into the Request New Burger field, then click the `plus icon`.
+To add a new burger, users should enter the burger name into the `Request New Burger` field, then click the `plus icon`.
 ![add](public/assets/img/addBurger.jpg)
