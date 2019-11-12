@@ -8,7 +8,6 @@
 ## Overview
 BurgerTime! Order Form is a logger, created with MySQL, Node, Express, Handlebars, and a homemade ORM. 
 
-## Screenshots
 ![mainSS](public/assets/img/screenshot.jpg)
 
 ## Languages/Technologies Used
