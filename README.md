@@ -6,7 +6,7 @@
 </p>
 
 ## Overview
-TBD
+BurgerTime! Order Form is a logger, created with MySQL, Node, Express, Handlebars, and a homemade ORM. 
 
 ## Screenshots
 ![mainSS](public/assets/img/screenshot.jpg)
@@ -20,10 +20,24 @@ TBD
     - [MySQL 2.17.1](https://www.npmjs.com/package/mysql)
 
 ## Getting Started
-TBD
+Visit https://stark-dusk-48972.herokuapp.com/.
 
 ### Prerequisites
-TBD
+- An internet browser with JavaScript enabled.
 
 ### Instructions
-TBD
+#### Order a Burger
+Users should click the `shopping bag icon` to add a burger to the ***Ordered Burgers*** list.
+![order](public/assets/img/orderBurger.jpg)
+
+#### Remove Burger from Order
+Users should click the `minus icon` to remove an ordered burger and add it back to the ***On the Menu*** list.
+![remove](public/assets/img/removeBurger.jpg)
+
+#### Delete a Burger
+Users should click the `trashcan icon` to permanently delete a burger from the page.
+![delete](public/assets/img/deleteBurger.jpg)
+
+#### Add a Burger
+To add a new burger, users should enter the burger name into the Request New Burger field, then click the `plus icon`.
+![add](public/assets/img/addBurger.jpg)
